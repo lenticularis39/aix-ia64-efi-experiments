@@ -22,3 +22,5 @@ in this repository including example apps can be build like this:
 make ARCH=ia64 CC=$TOOL_PREFIX-gcc AS=$TOOL_PREFIX-as LD=$TOOL_PREFIX-ld AR=$TOOL_PREFIX-ar RANLIB=$TOOL_PREFIX-ranlib OBJCOPY=$TOOL_PREFIX-objcopy all
 ```
 
+Note: The `all` target is required, at least on my machine, to be specified
+manually in order for make to build everything including subdirs correctly.
