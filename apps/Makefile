@@ -62,7 +62,8 @@ TARGET_APPS = t.efi t2.efi t3.efi t4.efi t5.efi t6.efi \
 	      printenv.efi t7.efi t8.efi tcc.efi modelist.efi \
 	      route80h.efi drv0_use.efi AllocPages.efi exit.efi \
 	      FreePages.efi setjmp.efi debughook.efi debughook.efi.debug \
-	      bltgrid.efi lfbgrid.efi setdbg.efi unsetdbg.efi
+	      bltgrid.efi lfbgrid.efi setdbg.efi unsetdbg.efi \
+              detect_table_preserve.efi
 TARGET_BSDRIVERS = drv0.efi
 TARGET_RTDRIVERS =
 
